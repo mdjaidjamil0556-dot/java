@@ -1,0 +1,28 @@
+class A{
+        void fun(){
+                  Syestem.out.println("I am without parameter");
+                  }       
+                void fun(int a){
+                   
+                 System.out.println("I am with parameter");
+                 } 
+        void fun(double a){
+                 System.out.println("I am with one double parameter: "+a);'
+                 }
+          void fun(int a, int b){
+                   System.out.println("I am with two parameter: "a+b);
+                   }
+}
+         
+                 class overloading{
+                                   public static void main(String args[] {
+                                    A a=new A();
+                                    a.fun();
+                                    a.fun(8);
+                                    a.fun(3,6);
+                                    a.fun(2,3);  
+                                    } 
+}
+                                          
+
+        
